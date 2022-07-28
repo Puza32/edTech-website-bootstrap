@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Eductional Technology</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
     <!-- Navber section start -->
     <header class="container ">
         <nav class="navbar navbar-expand-lg  ">
-            <div class="container-fluid mt-5">
+            <div class="container-fluid mt-2">
               <a class="navbar-brand" href="#">Eductional Technology</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,24 +41,33 @@
                     <a class="nav-link" href="#">Contact Us</a>
                   </li>
                 </ul>
-                <button type="button" class="btn btn-outline-primary ms-5">Register</button>
+                <button type="button" class="btn btn-outline-primary ms-1">Register</button>
               </div>
             </div>
           </nav>
 <!-- Navber section end -->
 
 <!-- carousel section start -->
-<section class="mt-5">
+<section class="mt-1">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/cover/cover-1.png" class="d-block w-100 opacity-75 " alt="...">
-            <h5>Get Started Digital
+          <div class="carousel-item header-img active">
+            <img src="images/cover/cover-1.png" class=" header-img d-block w-100  " alt="...">
+             <div class="carousel-caption d-md-block header-para">
+           <h5>Get Started Digital <br>
                 Learning</h5>
             <p>Some representative placeholder content for the first slide.</p>
+            <button type="button" class="btn btn-primary ">Get Started</button>
+        </div> 
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item header-img">
             <img src="images/cover/cover-3.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-md-block header-para">
+              <h5>Get Started Digital <br>
+                   Learning</h5>
+               <p>Some representative placeholder content for the first slide.</p>
+               <button type="button" class="btn btn-primary ">Get Started</button>
+           </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -72,6 +83,87 @@
 <!-- carousel section end -->
     </header>
     
+  <section class=" container  mt-5">
+    <h1 class="text-center">Discover Our Popular <br> Courses</h1>
+    <p class="text-center ">To help learners decide what to explore <br> in this exciting time  of technical change, we've compiled the top six most popular courses</p>
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-5 ">
+      <div class="col">
+        <div class="card d-flex flex-row">
+          <img src="images/course/course-1.png" class="w-100 card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+            <p class="card-text">The five main principles of UX design. There are many important principles within UX design but to simplify things a bit,</p>
+              <span>Price : 20$</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card d-flex flex-row">
+          <img src="images/course/course-2.png" class="w-100 card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Javascript Basic to advanced</h5>
+            <p class="card-text">JavaScript is the programming language of the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced.</p>
+            <span>Price : 20$</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card d-flex flex-row">
+          <img src="images/course/course-3.png" class="w-100 card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fullstack Web Development</h5>
+            <p class="card-text">A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser </p>
+            <span>Price : 20$</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card d-flex flex-row">
+          <img src="images/course/course-4.png" class="w-100 card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Digital Marketing</h5>
+            <p class="card-text">Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication</p>
+            <span>Price : 20$</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card d-flex flex-row">
+          <img src="images/course/course-5.png" class="w-100 card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Photography Basic Rules</h5>
+            <p class="card-text">Place points of interest on the intersections and important elements along the lines.
+              Use natural lines to lead eyes into the picture.
+              Diagonal lines create great movement.
+              Use natural frames like windows and doors.
+              Find </p>
+            <span>Price : 20$</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card d-flex flex-row">
+          <img src="images/course/course-6.png" class="w-100 card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Motion Graphics</h5>
+            <p class="card-text">Motion graphics (sometimes mograph) are pieces of animation or digital footage which create the illusion of motion or rotation, and are usually combined with audio for use in multimedia projects</p>
+            <span>Price : 20$</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section style="height: 350px;" class="container mt-5 p-5 bg-info">
+      <div class="d-flex ">
+        <h2>LET'S STAY IN TOUCH</h2>
+      <p>Get updates on sales specials and more</p>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </section>
+    <!-- Our Popular Courses section end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
