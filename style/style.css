@@ -4,6 +4,9 @@
 .header-para h5{
     font-size: 65px;
 }
+.header-para p .course-text p {
+font-size: 18px;
+}
 .course {
     margin-left: 100px;
 }
@@ -14,4 +17,7 @@
     .header-para h5{
     font-size: 20px;
    }
+
     }
+
+   
